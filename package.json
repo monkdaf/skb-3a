@@ -30,6 +30,7 @@
     "babel-cli": "^6.18.0",
     "babel-runtime": "^6.11.6",
     "express": "^4.14.0",
+    "lodash": "^4.17.2",
     "node-fetch": "^1.6.3"
   },
   "devDependencies": {
@@ -70,7 +71,8 @@
     "publish:docs": "easystatic deploy docs --repo kriasoft/babel-starter-kit",
     "start": "easystatic start docs",
     "flow": "flow",
-    "flow-typed": "flow-typed"
+    "flow-typed": "flow-typed",
+    "eslint:fix": "eslint --fix src test"
   },
   "directories": {
     "doc": "docs",

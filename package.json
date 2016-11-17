@@ -72,7 +72,7 @@
     "start": "easystatic start docs",
     "flow": "flow",
     "flow-typed": "flow-typed",
-    "eslint:fix": "eslint --fix src test"
+    "lint:fix": "eslint --fix src test"
   },
   "directories": {
     "doc": "docs",
